@@ -1,0 +1,93 @@
+@media (min-width: 1200px) {
+     
+    
+    
+}
+@media (max-width: 1200px) {
+   
+   .ggl, .b2 {
+        margin-left: 0px !important;
+        margin-right: 25px !important;
+   }
+   .b1, .news-end {
+        margin-left: 0 !important;
+        margin-right: 0px !important;
+        /* margin-left: 25px !important; */
+   }
+    .row {
+        width: 800px;
+        /* margin: 0 auto; */
+
+        /* 居中 */
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* 去掉广告 */
+    .qq {
+        display: none !important;
+    }
+    .xwzx {
+        margin-right: 0px !important;
+    }
+}
+@media (min-width: 992px) {
+    /* 去掉导航二字 */
+    .navbar-brand {
+        display: none;
+    }
+    /* 去掉三角图标 */
+    .dropdown-toggle::after { 
+        display: none;
+    }
+    /* 最大宽度 */
+    .container {
+        max-width: 1200px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+   
+    
+}
+@media (max-width: 992px) { 
+    /* 学校logo、搜索框居中 */
+    .top .col-12 {
+        text-align: center;
+    }
+    /* 调整搜索框位置 */
+    .top .search {
+        margin: 10px 0px 0px !important;
+    }
+    .col-12:nth-child(2) {
+        margin-bottom: 20px;
+    }
+    /* 调整二级菜单位置 */
+    .dropdown {
+        position: relative;
+        left: 5px;
+    }
+    /* 菜单以及二级菜单透明 */
+    .dropdown-toggle, .dropdown-menu {
+        background: transparent !important;
+    }
+    /* 二级菜单居中 */
+    .nav ul li {
+        width: 100% !important;
+    }
+    /* 去掉广告 */
+    .qq {
+        display: none !important;
+    }
+    
+    /* 二级菜单边框为白色 */
+    .navbar-nav .dropdown-menu {
+        border: 1px solid rgba(255, 255, 255, .5);
+    }
+   
+    
+}
+@media (min-width: 768px) {
+    .top .logo {
+        
+    }
+}
